@@ -1,0 +1,68 @@
+{
+    "configurations": [
+        {
+            "name": "STM32 Debug",
+            "includePath": [
+                "${env:VSARM}/armcc",
+                "${env:VSARM}/armcc/arm-none-eabi/include/c++/7.3.1",
+                "${env:VSARM}/armcc/arm-none-eabi/include/c++/7.3.1/arm-none-eabi",
+                "${env:VSARM}/armcc/arm-none-eabi/include/c++/7.3.1/backward",
+                "${env:VSARM}/armcc/lib/gcc/arm-none-eabi/7.3.1/include",
+                "${env:VSARM}/armcc/lib/gcc/arm-none-eabi/7.3.1/include-fixed",
+                "${env:VSARM}/armcc/arm-none-eabi/include",
+                "${workspaceRoot}/libs/STM32CubeL0/Drivers/CMSIS/Include/",
+                "${workspaceRoot}/libs/STM32CubeL0/Drivers/CMSIS/Include/",
+                "${workspaceRoot}/libs/STM32CubeL0/Drivers/CMSIS/Device/ST/STM32L0xx/Include/",
+                "${workspaceRoot}/libs/STM32CubeL0/Drivers/STM32L0xx_HAL_Driver/Inc",
+                "${workspaceRoot}/libs/STM32CubeL0/Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/",
+                "${workspaceRoot}/libs/STM32CubeL0/Drivers/STM32L0xx_HAL_Driver/Src",
+                "${workspaceRoot}/src/board",
+                "${workspaceRoot}/src/board/censis",
+                "${workspaceRoot}/src/modules",
+                "${workspaceRoot}/src/app",
+                "${workspaceRoot}/src",
+                "${workspaceRoot}"
+            ],
+            "defines": [
+                "DEBUG",
+                "DEFAULT_STACK_SIZE=2048",
+                "HSE_VALUE=8000000",
+                "OS_INCLUDE_STARTUP_INIT_MULTIPLE_RAM_SECTIONS",
+                "PB_MSGID",
+                "STM32L072",
+                "STM32L072x",
+                "USE_DEVICE_MODE",
+                "USE_FULL_ASSERT",
+                "USE_HAL_DRIVER",
+                "USE_USB_OTG_FS"
+            ],
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "C:/VSARM/armcc/bin/arm-none-eabi-gcc.exe",
+            "browse": {
+                "path": [
+                    "${env:VSARM}/armcc",
+                    "${env:VSARM}/armcc/arm-none-eabi/include/c++/7.3.1",
+                    "${env:VSARM}/armcc/arm-none-eabi/include/c++/7.3.1/arm-none-eabi",
+                    "${env:VSARM}/armcc/arm-none-eabi/include/c++/7.3.1/backward",
+                    "${env:VSARM}/armcc/lib/gcc/arm-none-eabi/7.3.1/include",
+                    "${env:VSARM}/armcc/lib/gcc/arm-none-eabi/7.3.1/include-fixed",
+                    "${env:VSARM}/armcc/arm-none-eabi/include",
+                    "${workspaceRoot}/libs/STM32CubeL0/Drivers/CMSIS/Include/",
+                    "${workspaceRoot}/libs/STM32CubeL0/Drivers/CMSIS/Include/",
+                    "${workspaceRoot}/libs/STM32CubeL0/Drivers/CMSIS/Device/ST/STM32L0xx/Include/",
+                    "${workspaceRoot}/libs/STM32CubeL0/Drivers/STM32L0xx_HAL_Driver/Inc",
+                    "${workspaceRoot}/libs/STM32CubeL0/Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/",
+                    "${workspaceRoot}/libs/STM32CubeL0/Drivers/STM32L0xx_HAL_Driver/Src",
+                    "${workspaceRoot}/Inc",
+                    "${workspaceRoot}/Src",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": false,
+                "databaseFilename": "${workspaceRoot}/.vscode/.browse2.vc.db"
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
