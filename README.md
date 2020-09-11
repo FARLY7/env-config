@@ -34,5 +34,9 @@ Phase 5 - Debug Messages
     - [ ] UART mapped to printf
 - [ ] Configure assert.
 
+Phase 6 - Error handling
+- [ ] Setup watchdog
+- [ ] Setup fault handlers
+
 Phase 6 - Begin Development
 - [ ] Write quality, robust, secure, reusable and portable software.
